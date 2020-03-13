@@ -138,7 +138,16 @@ namespace CardGames.GameLogic
 				 _topCards [0] != null && _topCards [0].Rank == _topCards [1].Rank) // and its a match
 			{
 				_score[player]++;
-				//TODO: consider playing a sound here...
+				
+				//play different sound effects when different players snap
+				if(player == 0)
+				{
+					SwinGame.PlaySoundEffect("Slap1");
+				}
+				else
+				{
+					SwinGame.PlaySoundEffect("Slap2");
+				}
 			}
 
 			// stop the game...
