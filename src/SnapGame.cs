@@ -11,8 +11,8 @@ namespace CardGames
             Bitmap cards;
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
             SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
-			SwinGame.LoadSoundEffect("Slap1", "slap.wav");
-			SwinGame.LoadSoundEffect("Slap2", "slap2.wav");
+			SwinGame.LoadSoundEffectNamed("Slap1", "slap.wav");
+			SwinGame.LoadSoundEffectNamed("Slap2", "slap2.wav");
         }
 
 		/// <summary>
