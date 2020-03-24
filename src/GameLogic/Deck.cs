@@ -72,7 +72,7 @@ namespace CardGames.GameLogic
 				_cards[i + rndIdx] = temp;
             }
 			_topCard = 0;
->>>>>>> origin/shuffle-cards
+            // >>>>>>> origin/shuffle-cards
 		}
         
 		/// <summary>

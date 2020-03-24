@@ -37,7 +37,7 @@ namespace CardGames
 				{
 					//TODO: add sound effects
 				}
-				else if (SwinGame.KeyTyped(Keycode.vk_LSHIFT))
+				else if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT))
 				{
 					myGame.PlayerHit(0);
 				}
